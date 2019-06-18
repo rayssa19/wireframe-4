@@ -1,0 +1,26 @@
+.navbar-nav .active {
+    border-bottom: black 2px solid;
+
+}
+.divisor {
+    width: 2px;
+    background: black;
+    margin: 12px 2px;
+}
+
+.col-xs-8 .input-group .form-control {
+    width: 400px;
+}
+.fa-search {
+    width: 30px;
+}
+
+.btn-sm {
+    margin-left: 20px;
+    margin-top: 5px;
+    height: 30px;
+}
+
+.col-md-8 .border-dark {
+    margin-left: 20px;
+}
