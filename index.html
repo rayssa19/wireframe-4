@@ -3,7 +3,8 @@
 <head>
   <!-- Meta tags Obrigatórias -->
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -14,6 +15,42 @@
   <link rel="stylesheet" href="css/style.css">
   <title></title>
 
+  <style type="text/css">
+    #outlook a { padding: 0; }
+    .ReadMsgBody { width: 100%; }
+    .ExternalClass { width: 100%; }
+    .ExternalClass * { line-height:100%; }
+    body { margin: 0; padding: 0; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+    table, td { border-collapse:collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+    img { border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; max-width: 100%; display: block;}
+    p { display: block; margin: 13px 0; }
+  </style>
+  <style type="text/css">
+    @media screen and (device-width: 480px), screen and (device-width: 360px), screen and (device-width: 320px) {
+      .text1 { font-size: 12px!important; }
+      .margin-left1 { margin-left: 1px!important; }
+      .margin-left2 { margin-left: 19px!important; }
+      .margin-left3 { margin-left: 15px!important; }
+      .margin-right1 { margin-right: 15px!important; }
+      .width1 { width: 280px!important; }
+    }
+    @media only screen and (max-device-width: 480px) {
+      .text1 { font-size: 12px!important; }
+      .margin-left1 { margin-left: 1px!important; }
+      .margin-left2 { margin-left: 19px!important; }
+      .margin-left3 { margin-left: 15px!important; }
+      .margin-right1 { margin-right: 15px!important; }
+      .width1 { width: 280px!important; }
+    }
+    @media only screen and (max-width:480px) {
+      .text1 { font-size: 12px!important; }
+      .margin-left1 { margin-left: 1px!important; }
+      .margin-left2 { margin-left: 19px!important; }
+      .margin-left3 { margin-left: 15px!important; }
+      .margin-right1 { margin-right: 15px!important; }
+      .width1 { width: 280px!important; }
+    }
+  </style>
 </head>
 
 <body>
@@ -26,7 +63,7 @@
   <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
     <ul class="navbar-nav mr-auto bg-light">
       <li class="nav-item active">
-        <a class="nav-link csk-text-mcassab" href="#">Online Marketplace</a>
+        <a class="nav-link" href="#">Online Marketplace</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Trade Shows</a>
@@ -94,17 +131,15 @@
                   <li><a href="#list3" class="text-dark">List 3</a></li>
                 </ul>
               </div>
-
               <input type="hidden" name="search_param" value="all" id="search_param">
-              <input type="text" class="form-control border-dark" name="x" placeholder="Enter English Keyword to search products">
-              <button class="btn-dark" type="button"><i class="fas fa-search"></i></button>
-              <button type="button" class="btn btn-secondary btn-sm">Get Quotations</button>
+              <input type="text" class="form-control border-dark ml-1 mt-1 width1" name="x" placeholder="Enter English Keyword to search products">
+              <button class="btn-dark mt-1" type="button"><i class="fas fa-search"></i></button>
+              <button type="button" class="btn btn-secondary btn-sm ml-1">Get Quotations</button>
             </div>
           </div>
         </div>
       </div>
     </div>
-
   </div>
 </div>
 <br>
@@ -196,54 +231,81 @@
 
       <br>
       <div class="row">
-        <p class="font-weight-bold">
+        <p class="font-weight-bold ml-1">
           New Products
         </p>
 
         <div class="input-group">
-          <p>
+          <p class="ml-4">
             <i class="fas fa-tv"></i>
             Free Alerts on newly added products!
           </p>
-          <input type="text" class="form-control border-dark" name="x" placeholder="Example: just@comany.com">
-          <button type="button" class="btn btn-secondary btn-sm">Subscribe</button>
+          <input type="text" class="form-control border-dark ml-4 mr-5" name="x" placeholder="Example: just@comany.com">
+          <button type="button" class="btn btn-secondary btn-sm ml-1 mr-5">Subscribe</button>
         </div>
       </div>
 
       <br>
 
-      <div class="row">
-        <div class="col-md-4">
-          <div class="card">
-            <img class="card-img-top" src="galeria/gallery-4.jpg" alt="Card image cap">
-            <div class="card-body">
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <div class="container d-none d-md-block d-xl-block d-lg-block">
+        <div class="row justify-content-center">
+          <div class="col-md-4">
+            <div class="card">
+              <img class="card-img-top w-100" src="galeria/gallery-4.jpg" height="250" alt="Card image cap 1">
+              <div class="card-body">
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img class="card-img-top w-100" src="galeria/gallery-6.jpg" height="250" alt="Card image cap 2">
+              <div class="card-body">
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img class="card-img-top w-100" src="galeria/gallery-9.jpg" height="250" alt="Card image cap 3">
+              <div class="card-body">
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-md-4">
-          <div class="card">
-            <img class="card-img-top" src="galeria/gallery-8.jpg" alt="Card image cap">
-            <div class="card-body">
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card">
-            <img class="card-img-top" src="galeria/gallery-9.jpg" alt="Card image cap">
-            <div class="card-body">
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
-          </div>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-md-auto d-md-none d-lg-none d-sm-block">
+          <ul class="list-unstyled">
+            <li class="media">
+              <img src="galeria/gallery-4.jpg" width="100" height="100" class="mr-3" alt="">
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">List-image-1</h5>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </div>
+            </li>
+            <li class="media my-4">
+              <img src="galeria/gallery-6.jpg" width="100" height="100" class="mr-3" alt="">
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">List-image-2</h5>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </div>
+            </li>
+            <li class="media">
+              <img src="galeria/gallery-9.jpg" width="100" height="100" class="mr-3" alt="">
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">List-image-3</h5>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </div>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
   </div>
 </div>
-
-
-
 
 
 <!-- JavaScript (Opcional) -->
